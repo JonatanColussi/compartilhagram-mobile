@@ -46,15 +46,6 @@ class FavoriteWidgetState extends State<FavoriteWidget> {
     setState(() {
       _favoriteCount = parsed[1];
       _isFavorited = parsed[0];
-      // If the lake is currently favorited, unfavorite it.
-//      if (_isFavorited) {
-//        _favoriteCount -= 1;
-//        _isFavorited = false;
-//        // Otherwise, favorite it.
-//      } else {
-//        _favoriteCount += 1;
-//        _isFavorited = true;
-//      }
     });
   }
 
